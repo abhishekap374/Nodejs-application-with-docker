@@ -1,5 +1,5 @@
-FROM alpine:latest
-RUN apk add --no-cache nodejs npm
+FROM centos:latest
+RUN yum install -y nodejs npm
 
 
 WORKDIR /app
